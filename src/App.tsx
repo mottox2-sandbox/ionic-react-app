@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { IonApp, IonHeader, IonToolbar, IonTitle } from '@ionic/react';
+import { IonApp, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/react';
 import logo from './logo.svg';
 import './App.css';
 import '@ionic/core/css/core.css';
@@ -16,22 +16,20 @@ class App extends Component {
             </IonTitle>
           </IonToolbar>
         </IonHeader>
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.tsx</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header>
-        </div>
+        <IonContent>
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.tsx</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </IonContent>
       </IonApp>
     );
   }
