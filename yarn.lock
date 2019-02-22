@@ -705,9 +705,15 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
-"@ionic/core@4.0.1", "@ionic/core@^4.0.1":
+"@ionic/core@4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.0.1.tgz#b038b10a25bf677f55a2e1aaa3276144345469b2"
+  dependencies:
+    ionicons "4.5.5"
+
+"@ionic/core@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.0.2.tgz#d642ebb816a55494b61c55b1e0792b9c2819322e"
   dependencies:
     ionicons "4.5.5"
 
@@ -717,11 +723,11 @@
   dependencies:
     netmask "^1.0.6"
 
-"@ionic/react@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-0.0.4.tgz#239614e12efa1b7b397422a9c40dacfa0a93a01d"
+"@ionic/react@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-0.0.5.tgz#7a0bc4531244acd2f1dd0be92c2accb1086136f9"
   dependencies:
-    "@ionic/core" "4.0.1"
+    "@ionic/core" "^4.0.2"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
